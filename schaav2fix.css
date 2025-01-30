@@ -1,0 +1,99 @@
+/* QUICK SEARCH V2 FIX */
+.layer_bc663c:has(.quickswitcher_ac6cb0) {
+    justify-content: start;
+}
+.quickswitcher_ac6cb0 {
+    background: none;
+    padding: 12;
+}
+.quickswitcher_ac6cb0 .scroller_ac6cb0 {
+    margin: 0;
+    border-radius: 0 0 8px 8px;
+    scrollbar-width: none;
+    padding: 8px !important;
+}
+.quickswitcher_ac6cb0 .input_ac6cb0 {
+    height: 50px;
+	background-color: var(--bg-3);
+}
+.quickswitcher_ac6cb0 .input_ac6cb0[value=""] {
+    border-radius: 8px;
+}
+.quickswitcher_ac6cb0 .input_ac6cb0:not([value=""]) {
+    border-radius: 8px 8px 0 0;
+}
+.quickswitcher_ac6cb0 .input_ac6cb0[value=""] + .scroller_ac6cb0,
+.quickswitcher_ac6cb0 .protip_ac6cb0 {
+    display: none;
+}
+.backdrop__1a911:has(+ .layer_bc663c .quickswitcher_ac6cb0) {
+    opacity: 0;
+}
+
+
+/* Server Name Longer */
+[class^=tooltip] /* Allow the server tooltip to fit the entire server name in one line */ {
+    max-width: unset !important; /* allow it to be larger */ }
+
+
+/* Remove translate, gift, gif, sticker icon */
+button[aria-label|="Send a gift"]{
+    display:none;
+}
+button[aria-label|="Open GIF picker"]{
+    display:none;
+}
+button[aria-label|="Open sticker picker"]{
+    display:none;
+}
+button[aria-label|="Open Translate Modal"]{
+    display:none;   
+}
+
+
+/* Remove the Create Invite button from Channel Lists */
+[class^="iconVisibility_"] [aria-label="Create Invite"] {
+    display: none !important;
+}
+[class^="iconVisibility_"] [aria-label="Edit Channel"] {
+    display: none !important;
+}
+[class^="iconVisibility_"] [aria-label="Create Channel"] {
+    display: none !important;
+}
+
+/* remove the three emoji when hovering over a message */
+/* remove separator as well*/
+div[aria-label*="Message Actions"] > div > div:has( > div > div[class*="emoji"]),
+div[aria-label*="Message Actions"] > div > div[class*="separator_"]{
+    display:none;
+}
+
+/* remove app bs from images, probably language dependant? */
+div[aria-label="Edit Image with Apps"]{
+    display:none;
+}
+
+/* Remove Boost-thing in servers */
+div[data-list-item-id*="channels___boosts-"]{
+    display:none;
+}
+
+/* Remove Activities */
+[class^=nowPlayingColumn_] {
+  display: none;
+}
+
+/* remove reaction right click */
+[class^=wrapper_]:has(>#message-quickreact-697745232413982730) {
+  display: none;
+}
+[class^=wrapper_]:has(>#message-actions-quickreact-697745232413982730) {
+  display: none;
+}
+
+/* remove add status */
+[aria-label="Add custom status"] { display: none; }
+
+/* Fix Search Bar */
+.search__49676{order:var(--search-order, 1)}.search__49676 .searchBar__97492{background:rgba(0,0,0,0)}.search__49676 .searchBar__97492:not(:focus-within,:hover,:has(.clear_fea832)){width:24px}.search__49676 .searchBar__97492:not(:focus-within,:hover,:has(.clear_fea832)) .iconContainer_fea832{width:24px;height:24px;cursor:pointer}
