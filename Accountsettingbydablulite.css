@@ -74,9 +74,3 @@
     transition-duration: .3s;
 }
 
-
-:root {
-  --settingswidth: 960; /* default: 960px (width of the settings modal, px) */
-  --settingsheight: 80; /* default: 80vh (height of the settings modal, vh) */
-  --settingsbackground: transparent; /* default: transparent (lowest BG Color of changed Windows, change it in case another Theme turns them transparent) */
-}
