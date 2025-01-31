@@ -95,5 +95,3 @@ div[data-list-item-id*="channels___boosts-"]{
 /* remove add status */
 [aria-label="Add custom status"] { display: none; }
 
-/* Fix Search Bar */
-.search__49676{order:var(--search-order, 1)}.search__49676 .searchBar__97492{background:rgba(0,0,0,0)}.search__49676 .searchBar__97492:not(:focus-within,:hover,:has(.clear_fea832)){width:24px}.search__49676 .searchBar__97492:not(:focus-within,:hover,:has(.clear_fea832)) .iconContainer_fea832{width:24px;height:24px;cursor:pointer}
