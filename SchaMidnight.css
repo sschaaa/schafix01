@@ -1,8 +1,8 @@
 :root{
-	/* thickness of messages divider */
+/* thickness of messages divider */
 	--divider-thickness: 2px;
 
-	/* accent colors */
+/* accent colors */
 	--accent-1: hsl(205, 65%, 45%); /* links */
 	--accent-2: hsl(0, 0%, 36%); /* general unread/mention elements */
 	--accent-3: hsl(0, 91%, 27%); /* accent buttons */
@@ -12,34 +12,34 @@
 	--mention: hsl(0, 2%, 10%); /* mentions & mention messages */
 	--mention-hover: hsl(0, 1%, 15%); /* mentions & mention messages when hovered */
 
-    /* text colors */
-    --text-0: rgb(189, 189, 189); /* text on colored elements */
-    --text-1: hsl(0, 0%, 73%); /* other normally white text */
-    --text-2: hsl(0, 0%, 52%); /* headings and important text */
-    --text-3: hsl(0, 2%, 64%); /* normal text */
-    --text-4: hsl(0, 0%, 43%); /* icon buttons and channels */
-    --text-5: #464545; /* muted channels/chats and timestamps */
+/* text colors */
+    	--text-0: rgb(189, 189, 189); /* text on colored elements */
+   	--text-1: hsl(0, 0%, 73%); /* other normally white text */
+    	--text-2: hsl(0, 0%, 52%); /* headings and important text */
+    	--text-3: hsl(0, 2%, 64%); /* normal text */
+    	--text-4: hsl(0, 0%, 43%); /* icon buttons and channels */
+   	--text-5: #464545; /* muted channels/chats and timestamps */
 
-	/* background and dark colors */
+/* background and dark colors */
 	--bg-1: #5d5a5a; /* dark buttons when clicked */
 	--bg-2: #575656; /* dark buttons */
-    --bg-3: hsl(240, 3%, 12%); /* spacing, secondary elements */
-    --bg-4: hsl(240, 2%, 8%); /* main background color */
+    	--bg-3: hsl(240, 3%, 12%); /* spacing, secondary elements */
+    	--bg-4: hsl(240, 2%, 8%); /* main background color */
    	--hover: hsla(0, 0%, 21%, 0.799); /* buttons when hovered */
-	--active: hsl(0, 2%, 8%); /* channels and buttons when clicked or selected */
+	--active: hsl(0, 1%, 28%); /* channels and buttons when clicked or selected */
 	--message-hover: hsl(0, 0%, 6%); /* messages when hovered */
 
-	/* amount of spacing and padding */
+/* amount of spacing and padding */
 	--spacing: 10px;
 
-	/* animations */
-	/* ALL ANIMATIONS CAN BE DISABLED WITH REDUCED MOTION IN DISCORD SETTINGS */
+/* animations */
+/* ALL ANIMATIONS CAN BE DISABLED WITH REDUCED MOTION IN DISCORD SETTINGS */
 	--list-item-transition: 0.2s ease; /* channels/members/settings hover transition */
 	--unread-bar-transition: 0.2s ease; /* unread bar moving into view transition */
 	--moon-spin-transition: 0.4s ease; /* moon icon spin */
 	--icon-spin-transition: 1s ease; /* round icon button spin (settings, emoji, etc.) */
 
-	/* corner roundness (border-radius) */
+/* corner roundness (border-radius) */
 	--roundness-xl: 15px; /* roundness of big panel outer corners */
 	--roundness-l: 15px; /* popout panels */
 	--roundness-m: 14px; /* smaller panels, images, embeds */
@@ -47,8 +47,8 @@
 	--roundness-xs: 5px; /* channels, buttons */
 	--roundness-xxs: 5px; /* searchbar, small elements */
 
-	/* filter uncolorable elements to fit theme */
-	/* (just set to none, they're too much work to configure) */
+/* filter uncolorable elements to fit theme */
+/* (just set to none, they're too much work to configure) */
 	--login-bg-filter: saturate(0.3) hue-rotate(-15deg) brightness(0.4); /* login background artwork */
 	--green-to-accent-3-filter: hue-rotate(56deg) saturate(1.43); /* add friend page explore icon */
 	--blurple-to-accent-3-filter: hue-rotate(304deg) saturate(0.84) brightness(1.2); /* add friend page school icon */
