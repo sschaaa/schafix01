@@ -130,3 +130,13 @@ div[aria-label*="Members"] > h3:has(> span > div > div[role="button"]){
     display:none;
 }
 
+/* Message shift-hover  */
+[aria-label*="Create Thread"],
+[aria-label*="Mark Unread"],
+[aria-label*="Copy Link"],
+[aria-label*="Pin Message"],
+[aria-label*="Copy Message ID"] {
+    display: none;
+}
+
+
