@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,500;1,500&display=swap');
+:root {
+/* font, change to 'gg sans' for default discord font*/
+--font-primary: "IBM Plex Sans";
+--font-display: "IBM Plex Sans";
+--font-headline: "IBM Plex Sans";
+--font-code: "IBM Plex Sans";
+-font: 'IBM Plex Sansa';
+}
