@@ -102,26 +102,6 @@ div[data-list-item-id*="channels___boosts-"]{
     padding-block: 3px;
 }
 
-/* squeeze channel list left */
-.wrapper__2ea32:not(.typeThread__2ea32) {
-    margin-left: 5px !important;
-}
-.wrapper__29444 {
-    padding-left: 14px !important;
-}
-/* fix threads "spine" */
-.spineBorder__5b40b {
-    bottom: 20px !important;
-    left: 16px;
-}
-.containerDefault_c69b6d>svg {
-    top: 5px;
-    left: 16px;
-}
-wrapper__2ea32.typeThread__2ea32 {
-    margin-left: 21px;
-}
-
 /* remove activity members-list */
 div[aria-label*="Members"] > div > div[role="listitem"]{
     display:none;
